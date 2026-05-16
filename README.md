@@ -4,6 +4,13 @@
 
 Hands-in-camera **Neon Aura AR**: webcam skeleton, pinch effects, two-hand arcs, reactive audio. Built with **[MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)** loaded from CDN.
 
+This repo includes a **verbatim copy** of **[Axshatt/HandConnect](https://github.com/Axshatt/HandConnect)** as [`handconnect.html`](./handconnect.html) (same experience as [their GitHub Pages demo](https://axshatt.github.io/HandConnect/)). The default **[`index.html`](./index.html)** is the same app with small reliability fixes (camera/audio startup, error messages, theme clicks).
+
+| Page | URL on your site |
+|------|------------------|
+| Recommended (patched) | […/index.html](https://vansh-sainii.github.io/neon-aura-ar/) |
+| Original HandConnect file | […/handconnect.html](https://vansh-sainii.github.io/neon-aura-ar/handconnect.html) |
+
 ## Features
 
 - 📷 **Live hand tracking** with neon skeleton and fingertip sparks
@@ -36,10 +43,11 @@ The same URL is in **`LIVE_SITE.txt`** at the repo root (plain text for easy cop
 
 ```
 neon-aura-ar/
-├── index.html      # Full AR demo (camera + tracking)
-├── LIVE_SITE.txt   # Published Pages URL (one line)
-├── LICENSE         # MIT License
-└── README.md       # This file
+├── index.html        # AR demo (HandConnect-based + reliability fixes)
+├── handconnect.html  # Exact clone of Axshatt/HandConnect main branch
+├── LIVE_SITE.txt     # Published Pages URL (one line)
+├── LICENSE           # MIT License
+└── README.md         # This file
 ```
 
 ## Contributing
