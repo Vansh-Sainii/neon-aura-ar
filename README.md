@@ -2,21 +2,20 @@
 
 **Live:** [https://vansh-sainii.github.io/neon-aura-ar/](https://vansh-sainii.github.io/neon-aura-ar/)
 
-A stunning augmented reality experience with a neon-themed aesthetic. This project combines cutting-edge AR technology with vibrant visual design to create immersive digital experiences.
+Hands-in-camera **Neon Aura AR**: webcam skeleton, pinch effects, two-hand arcs, reactive audio. Built with **[MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)** loaded from CDN.
 
 ## Features
 
-- 🌟 **Neon Visual Design** - Eye-catching gradient backgrounds with glowing effects
-- 📱 **Mobile Optimized** - Responsive design that works on all devices
-- ✨ **AR Ready** - Foundation for augmented reality experiences
-- 🎨 **Modern UI** - Smooth animations and interactive elements
+- 📷 **Live hand tracking** with neon skeleton and fingertip sparks
+- 🎯 **Themes** — Rainbow, Cyberpunk, Lava, Ocean, Galaxy  
+- ⚡ **Pinch** thumb + index → shockwave + zap sound  
+- 🤲 **Two hands** — arcs between fingertips + hum when indexes get close  
+- 🌐 **Hosted on GitHub Pages** — use **Enter experience** so the browser can unlock camera + audio
 
 ## Technologies
 
-- HTML5
-- CSS3 (with animations and gradients)
-- Responsive Design
-- AR-ready architecture
+- HTML5 Canvas, Web Audio API, `getUserMedia`
+- [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) (jsDelivr)
 
 ## Getting Started
 
@@ -25,7 +24,7 @@ A stunning augmented reality experience with a neon-themed aesthetic. This proje
    git clone https://github.com/Vansh-Sainii/neon-aura-ar.git
    ```
 
-2. Open `index.html` in your browser to view the landing page
+2. Open `index.html` — on **HTTPS** or **localhost** — then click **Enter experience** and **allow the camera**.
 
 ## Live Demo
 
@@ -37,7 +36,7 @@ The same URL is in **`LIVE_SITE.txt`** at the repo root (plain text for easy cop
 
 ```
 neon-aura-ar/
-├── index.html      # Main landing page
+├── index.html      # Full AR demo (camera + tracking)
 ├── LIVE_SITE.txt   # Published Pages URL (one line)
 ├── LICENSE         # MIT License
 └── README.md       # This file
