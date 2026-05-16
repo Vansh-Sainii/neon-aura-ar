@@ -1,5 +1,7 @@
 # ✨ Neon Aura AR
 
+**Live:** [https://vansh-sainii.github.io/neon-aura-ar/](https://vansh-sainii.github.io/neon-aura-ar/)
+
 A stunning augmented reality experience with a neon-themed aesthetic. This project combines cutting-edge AR technology with vibrant visual design to create immersive digital experiences.
 
 ## Features
@@ -29,11 +31,14 @@ A stunning augmented reality experience with a neon-themed aesthetic. This proje
 
 Visit the live site: **[https://vansh-sainii.github.io/neon-aura-ar/](https://vansh-sainii.github.io/neon-aura-ar/)**
 
+The same URL is in **`LIVE_SITE.txt`** at the repo root (plain text for easy copy-paste).
+
 ## Project Structure
 
 ```
 neon-aura-ar/
 ├── index.html      # Main landing page
+├── LIVE_SITE.txt   # Published Pages URL (one line)
 ├── LICENSE         # MIT License
 └── README.md       # This file
 ```
